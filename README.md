@@ -66,6 +66,25 @@ uvicorn app:app --reload
 - POST `/upload`: Upload financial data (CSV format)
 - Additional endpoints as per application requirements
 
+4. Access the API Interface via Swagger UI
+    Open your browser and go to:
+
+    http://localhost:8000/docs
+
+    There, you can:
+    Upload your financial CSV file using the /upload endpoint.
+    Ask questions using the /query endpoint.
+
+5. Sample Questions to Try:
+
+    "What are the top 5 expenses this month?"
+
+    "Summarize expenses by category."
+
+    "How much did I spend on groceries in May?"
+
+    "What was my total credit vs. debit in April?"
+
 ## File Format
 
 The application expects CSV files with the following columns:
