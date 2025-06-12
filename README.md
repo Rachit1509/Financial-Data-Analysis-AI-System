@@ -81,9 +81,7 @@ uvicorn app:app --reload
 
     "Summarize expenses by category."
 
-    "How much did I spend on groceries in May?"
-
-    "What was my total credit vs. debit in April?"
+    "How much did I spend on groceries in June?"
 
 ## File Format
 
