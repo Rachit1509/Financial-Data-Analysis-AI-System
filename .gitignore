@@ -1,0 +1,17 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+
+# Data files and temporary dirs
+chroma_finance_db_api/
+*.sqlite
+*.db
+
+# OS metadata
+.DS_Store
+Thumbs.db
